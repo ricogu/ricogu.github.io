@@ -1,0 +1,12 @@
+{
+  "name": "rico-cv",
+  "private": true,
+  "scripts": {
+    "build:html": "resumed render resume.json --theme ./theme-rico --output dist/index.html",
+    "build:pdf": "resumed export resume.json --theme ./theme-rico --output dist/Rico-Gu-CV.pdf",
+    "build": "rm -rf dist && mkdir -p dist && npm run build:html && npm run build:pdf"
+  },
+  "devDependencies": {
+    "resumed": "^1.0.0"
+  }
+}

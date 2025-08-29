@@ -1,0 +1,260 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Yuanxun Gu",
+    "label": "Cloud Native Developer & DevOps Engineer",
+    "image": "",
+    "email": "ricogu@gmail.com",
+    "phone": "+49 15153858459",
+    "url": "https://ricogu.github.io/my-cv",
+    "summary": "Experienced Senior DevOps Engineer with a strong background in cloud-native software development, seeking to leverage expertise in innovative cloud services and enabling technologies.",
+    "location": {
+      "address": "Karl-Breu-Weg 20",
+      "postalCode": "81829",
+      "city": "Munich",
+      "countryCode": "DE",
+      "region": "Bavaria"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "yuanxun-gu-a601804a",
+        "url": "https://www.linkedin.com/in/yuanxun-gu-a601804a"
+      },
+      {
+        "network": "GitHub",
+        "username": "ricogu",
+        "url": "https://github.com/ricogu"
+      }
+    ]
+  },
+
+  "work": [
+    {
+      "name": "SAP SE",
+      "position": "Senior DevOps Engineer",
+      "location": "Munich, Germany",
+      "startDate": "2021-11",
+      "endDate": "",
+      "highlights": [
+        "Hands-on experience in LLM fine-tuning and inference (Ludwig, Llama Factory, Azure/OpenAI API, Argo Workflows).",
+        "Managed Kubernetes clusters via GitOps (Helm, Kustomize, Argo CD).",
+        "Developed Kubernetes operators and integrated cloud-native services with SAP BTP.",
+        "System DevOps for automotive network project Catena-X (Golang, Argo CD, Docker, Kubernetes, GitHub Actions)."
+      ]
+    },
+    {
+      "name": "SAP Customer Experience",
+      "position": "Senior Software Developer",
+      "location": "Munich, Germany",
+      "startDate": "2018-03",
+      "endDate": "2021-10",
+      "highlights": [
+        "Backend development (Golang, Node.js, OpenAPI, Docker, Kubernetes).",
+        "Implemented CI/CD pipelines and end-to-end tests.",
+        "Conducted API stress tests using Locust.",
+        "Guided junior developers and served as Scrum Master."
+      ]
+    },
+    {
+      "name": "SAP Hybris",
+      "position": "System DevOps",
+      "location": "Munich, Germany",
+      "startDate": "2016-01",
+      "endDate": "2018-02",
+      "highlights": [
+        "Consultancy and technical advice for private cloud platforms.",
+        "Built internal tools for DevOps automation (Java, Spring Boot, Bash, MySQL)."
+      ]
+    },
+    {
+      "name": "DOCOMO Communications Laboratories Europe",
+      "position": "Research Engineer",
+      "location": "Munich, Germany",
+      "startDate": "2011-09",
+      "endDate": "2015-12",
+      "highlights": [
+        "R&D in augmented reality and indoor localization.",
+        "Developed Android prototypes and customized DASH video players.",
+        "Presented demos at major events (e.g., NTT DOCOMO R&D Open House 2011, Japan)."
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "National University of Singapore",
+      "location": "Singapore",
+      "area": "Mobile Computing",
+      "studyType": "Master of Engineering",
+      "startDate": "2009-06",
+      "endDate": "2011-08",
+      "highlights": [
+        "Published two Android games on Google Play Store.",
+        "Research in AR and mobile visualization; 6+ conference papers and a book chapter.",
+        "Supervised undergraduate dissertations; multiple awards including Splash Award (Singapore Computer Society)."
+      ]
+    },
+    {
+      "institution": "National University of Singapore",
+      "location": "Singapore",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2006-09",
+      "endDate": "2009-05",
+      "highlights": [
+        "Final year dissertation on P2P multicast traffic theory.",
+        "Dean’s List in 2006 and 2009."
+      ]
+    },
+    {
+      "institution": "Ngee Ann Polytechnic",
+      "location": "Singapore",
+      "area": "Mechatronic Engineering",
+      "studyType": "Diploma of Merit",
+      "startDate": "2003-07",
+      "endDate": "2006-02",
+      "highlights": [
+        "Designed and implemented a vision-controlled entertaining robot.",
+        "Awards include Innovative Mechanism Design Award and multiple Book Prizes."
+      ]
+    }
+  ],
+
+  "publications": [
+    {
+      "title": "SimpleCore: A connectionless, best effort, no-mobility-supporting 5G core architecture",
+      "authors": [
+        { "name": "W. Kiess" },
+        { "name": "Yuan Xun Gu", "isMe": true },
+        { "name": "S. Thakolsri" },
+        { "name": "M. R. Sama" },
+        { "name": "S. Beker" }
+      ],
+      "venue": "IEEE International Conference on Communications Workshops (ICC)",
+      "abbreviation": "ICC Workshops",
+      "location": "Kuala Lumpur, Malaysia",
+      "date": "2016",
+      "pages": "367–372",
+      "publisher": "IEEE",
+      "summary": ""
+    },
+    {
+      "title": "Towards location recognition using range images",
+      "authors": [
+        { "name": "A. Al-Nuaimi" },
+        { "name": "R. Huitl" },
+        { "name": "S. Taifour" },
+        { "name": "S. Sarin" },
+        { "name": "X. Song" },
+        { "name": "Y. X. Gu", "isMe": true },
+        { "name": "E. Steinbach" },
+        { "name": "M. Fahrmair" }
+      ],
+      "venue": "IEEE International Conference on Multimedia and Expo (ICME) — Workshop on Hot Topics in 3D (Hot3D)",
+      "abbreviation": "ICME Hot3D",
+      "location": "San José, USA",
+      "date": "2013",
+      "publisher": "IEEE",
+      "summary": ""
+    },
+    {
+      "title": "Influences of AR-supported Simulation on Learning Effectiveness in Face-to-face Collaborative Learning for Physics",
+      "authors": [
+        { "name": "N. Li" },
+        { "name": "Y. X. Gu", "isMe": true },
+        { "name": "L. Chang" },
+        { "name": "H. B. L. Duh" }
+      ],
+      "venue": "IEEE International Conference on Advanced Learning Technologies (ICALT)",
+      "abbreviation": "ICALT",
+      "location": "Athens, GA, USA",
+      "date": "2011",
+      "publisher": "IEEE",
+      "summary": ""
+    },
+    {
+      "title": "A Collaborative Augmented Reality Networked Platform for Edutainment",
+      "authors": [
+        { "name": "Y. X. Gu", "isMe": true },
+        { "name": "N. Li" },
+        { "name": "L. Chang" },
+        { "name": "H. B. L. Duh" }
+      ],
+      "venue": "Mobile Collaborative Augmented Reality System: Recent Trends (Book Chapter)",
+      "abbreviation": "",
+      "location": "",
+      "date": "2011",
+      "publisher": "Springer",
+      "summary": ""
+    },
+    {
+      "title": "Facilitating Learning Interests through Mobile Information Visualization",
+      "authors": [
+        { "name": "Y. X. Gu", "isMe": true },
+        { "name": "R. K. C. Koh" },
+        { "name": "H. B. L. Duh" }
+      ],
+      "venue": "IEEE International Conference on Advanced Learning Technologies (ICALT)",
+      "abbreviation": "ICALT",
+      "location": "Sousse, Tunisia",
+      "date": "2010",
+      "publisher": "IEEE",
+      "summary": ""
+    },
+    {
+      "title": "A Narrative-Driven Design Approach for Casual Games with Children",
+      "authors": [
+        { "name": "H. B. L. Duh" },
+        { "name": "S. L. Chu Yew Yee" },
+        { "name": "Y. X. Gu", "isMe": true },
+        { "name": "V. H. H. Chen" }
+      ],
+      "venue": "ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques",
+      "abbreviation": "SIGGRAPH",
+      "location": "Los Angeles, USA",
+      "date": "2010-07",
+      "publisher": "ACM",
+      "summary": ""
+    }
+  ],
+
+  "interests": [
+    { "name": "Video Games" },
+    { "name": "Travel" },
+    { "name": "Food" }
+  ],
+
+  "skills": [],
+  "projects": [],
+  "awards": [],
+  "certificates": [],
+  "volunteer": [],
+  "languages": [],
+  "references": [],
+
+  "meta": {
+    "theme": "jsonresume-theme-rico"
+  },
+
+  "x_preferences": {
+    "sectionsOrder": [
+      "basics",
+      "work",
+      "projects",
+      "education",
+      "skills",
+      "publications",
+      "certificates",
+      "awards",
+      "volunteer",
+      "languages",
+      "interests",
+      "references"
+    ],
+    "print": {
+      "pageSize": "A4",
+      "margins": "14mm"
+    }
+  }
+}

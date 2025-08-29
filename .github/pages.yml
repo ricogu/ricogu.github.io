@@ -1,0 +1,64 @@
+name: Build & Publish CV
+
+on:
+  push:
+    branches: [ main ]
+    # Rebuild when the source-of-truth or theme changes
+    paths:
+      - resume.json
+      - theme-rico/**
+      - package.json
+      - package-lock.json
+      - .github/workflows/pages.yml
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # Optional but helps PDF text rendering look nice
+      - name: Install fonts (optional)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fonts-noto fonts-dejavu-core
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Build HTML + PDF
+        run: npm run build
+
+      # If you have images/css outside the theme (e.g., favicon), copy them too:
+      # - name: Copy static assets
+      #   run: cp -r public/* dist/ || true
+
+      - name: Upload artifact to Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
